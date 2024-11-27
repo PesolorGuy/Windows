@@ -4,10 +4,10 @@
 @echo off
 :: ### Configuration Options ###
 
-:: change to 1 to enable debug mode (can be used with unattended options)
+:: change to 1 to enable debug mode
 set _Debug=0
 
-:: change to 0 to turn OFF Windows or Office activation processing via the script
+:: change to 0 to turn OFF Windows Or Office
 set ActWindows=1
 set ActOffice=0
 
@@ -17,7 +17,7 @@ set AutoR2V=1
 :: change to 0 to keep Office C2R vNext license (subscription or lifetime)
 set vNextOverride=1
 
-:: change to 0 to revert Windows 10/11 KMS38 to normal KMS
+:: change to 0 to revert Windows 10/11 KMS38 to normal
 set SkipKMS38=1
 
 :: ### Unattended Options ###
@@ -38,13 +38,13 @@ set Silent=0
 :: change to 1 to redirect output to a text file, works only with Silent=1
 set Logger=0
 
-:: ### Advanced KMS Options ###
+:: ### Advanced Activator Options ###
 
-:: change KMS auto renewal schedule for activated clients, range in minutes: from 15 to 43200
+:: change activator's auto renewal schedule for activated clients, range in minutes: from 15 to 43200
 :: example: 10080 = weekly, 1440 = daily, 43200 = monthly
 set KMS_RenewalInterval=10080
 
-:: change KMS reattempt schedule for unactivated clients, range in minutes: from 15 to 43200
+:: change activator's reattempt schedule for unactivated clients, range in minutes: from 15 to 43200
 set KMS_ActivationInterval=120
 
 :: change Hardware Hash for KMS emulator server (only affect Windows 8.1 and 10)
@@ -61,9 +61,9 @@ set WMI_VBS=0
 :: automatically enabled if wmic.exe and VBScript are not installed
 set WMI_PS=0
 
-:: ###################################################################
-:: # NORMALLY THERE IS NO NEED TO CHANGE ANYTHING BELOW THIS COMMENT #
-:: ###################################################################
+:: ###########################################################################################################
+:: # NORMALLY THERE IS NO NEED TO CHANGE ANYTHING BELOW THIS COMMENT IF YOU WANT TO MAKE A FORK OR SOMETHING #
+:: ###########################################################################################################
 
 set KMS_Emulation=1
 set Unattend=0
